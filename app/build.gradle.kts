@@ -42,6 +42,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.navigation.compose)
     val room_version = "2.8.0"
     implementation("androidx.room:room-runtime:$room_version")
     ksp(string = "androidx.room:room-compiler:$room_version")
